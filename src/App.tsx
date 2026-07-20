@@ -1,9 +1,19 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
 function App() {
   return (
-    <main className="py-10">
-      <h1 className="text-3xl font-bold text-center">Amanda Koka</h1>
-    </main>
+    <>
+      <Navbar />
+      <Hero />
+      <Projects />
+      <Contact />
+      <Footer />
+    </>
   );
 }
 
-export default App
+export default App;
