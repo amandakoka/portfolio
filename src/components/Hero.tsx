@@ -13,13 +13,18 @@ function Hero() {
           className="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 bg-linear-to-tr from-[#08143c] to-[#8FD9FB] opacity-30 sm:left-[calc(50%-30rem)] sm:w-288.75"
         ></div>
       </div>
-      <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+      <div className="mx-auto max-w-2xl py-32 sm:py-30 lg:py-40">
         <div className="text-center">
-          <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">
-            Hello, I'm Amanda Koka.
+          <img
+            src="src/assets/images/pp.JPG"
+            alt="Amanda Koka Picture"
+            className="mx-auto h-30 w-30 rounded-full object-cover"
+          />
+          <h1 className="mt-6 text-5xl font-bold tracking-tight text-balance text-gray-900 ">
+            Hello, I'm Amanda Koka!
           </h1>
-          <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
-            A third year software engineering student
+          <p className="mt-8 text-lg font-bold text-pretty text-gray-500 sm:text-xl/8">
+            A Third Year Software Engineering Student
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
@@ -29,9 +34,20 @@ function Hero() {
               My projects
             </a>
             <a
-              href="#"
-              className="text-sm/6 font-semibold text-gray-900"
+              href="https://github.com/amandakoka"
+              target="_blank"
+              className="rounded-md hover:bg-gray-100 px-3.5 py-2.5 text-sm font-semibold shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-500"
             >
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/amandakoka"
+              target="_blank"
+              className="rounded-md hover:bg-gray-100 px-3.5 py-2.5 text-sm font-semibold shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-500"
+            >
+              LinkedIn
+            </a>
+            <a href="#" className="text-sm/6 font-semibold text-gray-900">
               Contact me <span aria-hidden="true">→</span>
             </a>
           </div>
