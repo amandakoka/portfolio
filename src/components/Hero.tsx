@@ -1,3 +1,4 @@
+import profilePicture from "../assets/images/pp.jpg";
 function Hero() {
   return (
     <div className="relative isolate px-6 lg:px-8">
@@ -16,7 +17,7 @@ function Hero() {
       <div className="mx-auto max-w-2xl py-32 sm:py-30 lg:py-40">
         <div className="text-center">
           <img
-            src="src/assets/images/pp.JPG"
+            src={profilePicture}
             alt="Amanda Koka Picture"
             className="mx-auto h-30 w-30 rounded-full object-cover"
           />
