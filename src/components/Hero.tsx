@@ -1,7 +1,7 @@
 import profilePicture from "../assets/images/pp.jpg";
 function Hero() {
   return (
-    <div className="relative isolate px-6 lg:px-8">
+    <section className="relative isolate px-6 lg:px-8">
       <div
         aria-hidden="true"
         className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -66,7 +66,7 @@ function Hero() {
           className="relative left-[calc(50%+3rem)] aspect-1155/678 w-144.5 -translate-x-1/2 bg-linear-to-tr from-[#08143c] to-[#8FD9FB] opacity-30 sm:left-[calc(50%+36rem)] sm:w-288.75"
         ></div>
       </div>
-    </div>
+    </section>
   );
 }
 
