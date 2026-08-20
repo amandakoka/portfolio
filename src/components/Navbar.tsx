@@ -36,8 +36,8 @@ function Navbar() {
           </div>
 
           <a
-            href="/"
-            download=""
+            href="/AMANDA-KOKA-CV.pdf"
+            download
             className="hidden h-9 items-center gap-1.5 rounded-lg border border-gray-200 bg-white px-4 text-base font-semibold shadow-sm transition hover:shadow-md md:inline-flex"
           >
             <svg
