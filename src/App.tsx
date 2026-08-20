@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main className="relative isolate px-6 lg:px-8">
+      <main className="mx-auto max-w-6xl px-6 lg:px-8">
         <Hero />
         <Projects />
         <Contact />

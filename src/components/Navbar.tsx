@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <nav className="sticky top-0 z-100 transition-[background,border-color,backdrop-filter] duration-300 border-b bg-white/80 backdrop-blur-lg backdrop-saturate-180 border-b-black/6">
-      <div className="nav-inner">
+      <div className="nav-inner mx-auto max-w-6xl px-6 lg:px-8">
         <div className="flex items-center gap-2">
           <a
             href="#"
