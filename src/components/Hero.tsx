@@ -48,7 +48,10 @@ function Hero() {
             >
               LinkedIn
             </a>
-            <a href="#" className="text-sm/6 font-semibold text-gray-900">
+            <a
+              href="#"
+              className="rounded-md hover:bg-gray-100 px-3.5 py-2.5 text-sm font-semibold shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 text-sm/6 font-semibold text-gray-900"
+            >
               Contact me <span aria-hidden="true">→</span>
             </a>
           </div>
