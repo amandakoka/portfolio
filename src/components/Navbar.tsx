@@ -14,14 +14,14 @@ function Navbar() {
         <div className="flex items-center gap-2">
           <div className="hidden md:flex gap-1">
             <a
-              href="#work"
+              href="#hero"
               className="cursor-pointer rounded-lg px-3 py-2 text-base font-medium transition-colors hover:bg-gray-100"
             >
               About
             </a>
 
             <a
-              href="#about"
+              href="#projects"
               className="cursor-pointer rounded-lg px-3 py-2 text-base font-medium transition-colors hover:bg-gray-100"
             >
               Projects
