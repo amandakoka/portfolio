@@ -14,7 +14,7 @@ function Hero() {
           className="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 bg-linear-to-tr from-[#08143c] to-[#8FD9FB] opacity-30 sm:left-[calc(50%-30rem)] sm:w-288.75"
         ></div>
       </div>
-      <div className="mx-auto max-w-2xl py-32 sm:py-30 lg:py-40">
+      <div className="mx-auto max-w-2xl pt-32 pb-12 lg:pt-40 lg:pb-16">
         <div className="text-center">
           <img
             src={profilePicture}
