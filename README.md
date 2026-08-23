@@ -1,6 +1,7 @@
 # Amanda Koka Portfolio 
 
 A personal portfolio built with React, TypeScript, Vite and Tailwind CSS.
+[Live site here](https://amandakoka.com/)
 
 ## Features
 - Responsive design
