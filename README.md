@@ -30,7 +30,5 @@ I thought of using a JSON file. However, because I'm using TypeScript, I can use
 Like in Java, where an interface defines a contract, a TypeScript interface defines the structure of an object, e.g. title: string. 
 I also need a projectcardprops to defines whhat projectcard componet expects to receive:
 project interface: what a project contains
-projectcard props: what projectcard needs from its parent.
-
-In this case project card needs the project object it self because it needs all the information to display on the card.
+projectcard props: what projectcard needs from its parent. In this case project card needs the project object it self because it needs all the information to display on the card.
 So props are the data a child component receives from its parent. TypeScript can then check my project objects and props against their expected types and catch mistakes during development.
